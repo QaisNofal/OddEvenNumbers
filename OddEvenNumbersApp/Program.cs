@@ -29,14 +29,7 @@ namespace OddEvenNumbersApp
             Console.WriteLine();
         }
 
-        static bool IsEven(int number)
-        {
-            return number % 2 == 0;
-        }
-
-        static bool IsOdd(int number)
-        {
-            return number % 2 != 0;
-        }
+        static bool IsEven(int number)=> number%2 == 0;
+        static bool IsOdd(int number)=> number%2 != 0;
     }
 }
